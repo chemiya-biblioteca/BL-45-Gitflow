@@ -1,0 +1,17 @@
+se sube el archivo base al repositorio a la rama master
+se crea la rama develop en github a partir de la master
+se crea rama feature-x en github a partir de la rama develop
+carpeta vacia
+git init
+Git remote add origin enlace
+Git Pull origin develop
+git branch feature-x
+git checkout feature-x
+git pull origin feature-x
+Modificas vsc
+Git add .
+Git Commit -m “correccion”
+Git Push origin feature-x
+pull request en github de la rama feature-x a develop y hacemos merge
+pull request en github de la rama develop a master y hacemos merge
+borrar archivos del local y carpeta de git
